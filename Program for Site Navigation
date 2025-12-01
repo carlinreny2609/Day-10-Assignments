@@ -1,0 +1,21 @@
+package Seleniumpractise;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Firstproject {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		WebDriver Chrome = new ChromeDriver();
+		
+		Chrome.get(" https://www.saucedemo.com/");
+			
+		Chrome.close();
+		
+		System.out.println("Site Navigation Success");
+
+	}
+
+}
